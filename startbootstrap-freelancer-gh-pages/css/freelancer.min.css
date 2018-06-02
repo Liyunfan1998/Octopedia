@@ -380,3 +380,99 @@ a:active, a:focus, a:hover {
     background-color: #1a252f;
     border-color: #1a252f
 }
+
+div.search {
+    padding: 10px 0;
+}
+
+form {
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+}
+
+input, button {
+    border: none;
+    outline: none;
+}
+
+input {
+    width: 100%;
+    height: 100px;
+    padding-left: 13px;
+}
+
+button {
+    height: 42px;
+    width: 42px;
+    cursor: pointer;
+    position: relative;
+}
+
+/*搜索框6*/
+
+.bar6 input {
+    border: 5px solid #F7F7F7;
+    border-radius: 80px;
+    background: transparent;
+    top: 0;
+    right: 0;
+}
+
+.bar6 button {
+    background: #ECA2EE;
+    border-radius: 0 5px 5px 0;
+    width: 50px;
+    top: 0;
+    left: 0;
+    position: relative;
+}
+
+.bar6 button:before {
+    content: "搜索";
+    font-size: 20px;
+    color: #F9F0DA;
+}
+
+.bar7 form {
+    height: 42px;
+}
+
+.bar7 input {
+    width: 350px;
+    height: auto;
+    display: block;
+    position: relative;
+    z-index: 0;
+    display: block;
+    margin: 0;
+    -webkit-transition: top .3s ease, opacity .3s ease;
+    -moz-transition: top .3s ease, opacity .3s ease;
+    -ms-transition: top .3s ease, opacity .3s ease;
+    horiz-align: middle;
+    border-radius: 42px;
+    border: 2px solid white;
+    background: mediumpurple;
+    transition: .3s linear;
+
+}
+
+.bar7 input:focus {
+    width: 450px;
+}
+
+.bar7 button {
+    background: none;
+    top: -2px;
+    right: 20px;
+}
+
+.bar7 button:before {
+    content: "Search";
+    font-family: FontAwesome;
+    color: white;
+}
+
+.search #searchBtn {
+    height: 10px !important;
+}
