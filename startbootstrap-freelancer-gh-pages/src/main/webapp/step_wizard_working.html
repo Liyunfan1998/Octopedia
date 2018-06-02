@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- This file has been downloaded from Bootsnipp.com. Enjoy! -->
+    <title>Step Wizard (Working) - Bootsnipp.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+        body {
+            margin-top: 20px;
+        }
+    </style>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row form-group">
+        <div class="col-xs-12">
+            <ul class="nav nav-pills nav-justified thumbnail setup-panel">
+                <li class="active"><a href="#step-1">
+                    <h4 class="list-group-item-heading">Language Tests</h4>
+                    <p class="list-group-item-text">TOEFL completed</p>
+                </a></li>
+                <li class="disabled"><a href="#step-2">
+                    <h4 class="list-group-item-heading">Essays</h4>
+                    <p class="list-group-item-text">12 of 30 completed</p>
+                </a></li>
+                <li class="disabled"><a href="#step-3">
+                    <h4 class="list-group-item-heading">Prepare for interview</h4>
+                    <p class="list-group-item-text">MIT, CMU on the waiting list</p>
+                </a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="row setup-content" id="step-1">
+        <div class="col-xs-12">
+            <div class="col-md-12 well text-center">
+                <h1>Language Tests</h1>
+                <iframe src="circle_progress_bar.html" width=100% height="170"></iframe>
+                <br>
+                <h5>To Activate Essay Writting Before<br> All
+                    Language Tests Are Completed</h5>
+                <h4>click the button below</h4>
+                <button id="activate-step-2" class="btn btn-primary btn-lg">Activate
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="row setup-content" id="step-2">
+        <div class="col-xs-12">
+            <div class="col-md-12 well">
+                <h1 class="text-center"> STEP 2</h1>
+            </div>
+        </div>
+    </div>
+    <div class="row setup-content" id="step-3">
+        <div class="col-xs-12">
+            <div class="col-md-12 well">
+                <h1 class="text-center"> STEP 3</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/progressBar.js"></script>
+</body>
+</html>

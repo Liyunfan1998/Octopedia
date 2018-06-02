@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>OCP</groupId>
+    <artifactId>ocp</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>war</packaging>
+
+    <name>Watson Maven Webapp</name>
+    <!--FIXME change it to the project's website-->
+    <url>http://www.example.com</url>
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.resources.overwrite>true</maven.resources.overwrite>
+        <spring.version>4.3.7.RELEASE</spring.version>
+        <javax.servlet.version>3.1.0</javax.servlet.version>
+        <json.version>20180130</json.version>
+        <hibernate.version>5.2.9.Final</hibernate.version>
+        <c3p0.version>0.9.5.2</c3p0.version>
+        <mysql.version>6.0.6</mysql.version>
+        <google.guava.version>18.0</google.guava.version>
+        <commons-fileupload.version>1.3.2</commons-fileupload.version>
+        <jackson.version>2.8.6</jackson.version>
+        <log4j.version>2.7</log4j.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.ibm.watson.developer_cloud</groupId>
+            <artifactId>java-sdk</artifactId>
+            <version>6.0.0</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <finalName>Watson</finalName>
+        <!--//填你项目的名称-->
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+                <includes>
+                    <include>*.properties</include>
+                    <include>*.xml</include>
+                    <include>*.ftl</include>
+                    <include>*.conf</include>
+                    <include>*.json</include>
+                </includes>
+            </resource>
+        </resources>
+        <testResources>
+            <testResource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+                <includes>
+                    <include>*.properties</include>
+                    <include>*.xml</include>
+                    <include>*.ftl</include>
+                    <include>*.conf</include>
+                    <include>*.json</include>
+                </includes>
+            </testResource>
+        </testResources>
+        <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+            <plugins>
+                <plugin>
+                    <artifactId>maven-clean-plugin</artifactId>
+                    <version>3.0.0</version>
+                </plugin>
+                <!-- see http://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_war_packaging -->
+                <plugin>
+                    <artifactId>maven-resources-plugin</artifactId>
+                    <version>3.0.2</version>
+                </plugin>
+                <plugin>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.7.0</version>
+                </plugin>
+                <plugin>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>2.20.1</version>
+                </plugin>
+                <plugin>
+                    <artifactId>maven-war-plugin</artifactId>
+                    <version>3.2.0</version>
+                </plugin>
+                <plugin>
+                    <artifactId>maven-install-plugin</artifactId>
+                    <version>2.5.2</version>
+                </plugin>
+                <plugin>
+                    <artifactId>maven-deploy-plugin</artifactId>
+                    <version>2.8.2</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.tomcat.maven</groupId>
+                    <artifactId>tomcat7-maven-plugin</artifactId>
+                    <version>2.2</version>
+                    <configuration>
+                        <url>http://localhost:8080/manager/text</url>
+                        <username>zyz</username>
+                        <password>1qaz2wsx</password>
+                        <path>/story</path>
+                        <update>true</update>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.mortbay.jetty</groupId>
+                    <artifactId>maven-jetty-plugin</artifactId>
+                    <version>6.1.26</version>
+                    <configuration>
+                        <!--<webAppSourceDirectory>src/main/webapp</webAppSourceDirectory>-->
+                        <!--<scanIntervalSeconds>6</scanIntervalSeconds>-->
+                        <!--<contextPath>/prospect</contextPath>-->
+                        <!--<webDefaultXml>jetty.xml</webDefaultXml>-->
+                        <!--<jettyEnvXml>jetty-env.xml</jettyEnvXml>-->
+                        <connectors>
+                            <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
+                                <port>8080</port>
+                                <headerBufferSize>80000</headerBufferSize>
+                            </connector>
+                        </connectors>
+                        <stopKey>stop</stopKey>
+                        <stopPort>8089</stopPort>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-maven-plugin</artifactId>
+                    <configuration>
+                        <jvmArguments>-agentpath:"/Users/liufang/Library/Application Support/IntelliJIdea15/jr-ide-idea/lib/jrebel6/lib/libjrebel64.dylib"</jvmArguments>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+</project>

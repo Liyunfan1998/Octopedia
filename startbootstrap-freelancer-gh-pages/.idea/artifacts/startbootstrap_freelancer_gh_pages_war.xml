@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="startbootstrap-freelancer-gh-pages:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="Watson.war">
+      <element id="artifact" artifact-name="startbootstrap-freelancer-gh-pages:war exploded" />
+    </root>
+  </artifact>
+</component>

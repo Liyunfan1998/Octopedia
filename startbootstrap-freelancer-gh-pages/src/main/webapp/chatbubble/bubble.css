@@ -1,0 +1,357 @@
+.speech-bubble-server {
+    position: relative;
+    width: 40%;
+    padding: 10px;
+    background: dodgerblue;
+    border-radius: .4em;
+}
+
+.speech-bubble-server:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top-color: dodgerblue;
+    border-bottom: 0;
+    border-left: 0;
+    margin-left: -10px;
+    margin-bottom: -20px;
+}
+
+.speech-bubble-user {
+    position: relative;
+    width: 40%;
+    padding: 10px;
+    margin-left: 60%;
+    background: limegreen;
+    border-radius: .4em;
+}
+
+.speech-bubble-user:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top-color: limegreen;
+    border-bottom: 0;
+    border-right: 0;
+    margin-left: -10px;
+    margin-bottom: -20px;
+}
+
+.scrollable-panel {
+    padding: 20px;
+    max-height: 300px;
+    background-color: mediumpurple;
+    border: 5px solid orange;
+    width: 75%;
+    overflow: auto;
+}
+
+div.search {
+    padding: 10px 0;
+}
+
+.content_input .search_field { /*输入框样式*/
+
+    width: 536px;
+    height: 70px;
+    line-height: 38px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid #99C3FE;
+    float: center;
+}
+
+.content_input .search_btn { /*按钮样式*/
+    width: 103px;
+    height: 70px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    line-height: 38px;
+    color: #FFFFFF;
+    font-weight: 1500;
+    font-size: 25px;
+    background: #3388FF;
+    border: none;
+    float: none;
+}
+
+.panel-title {
+    margin-left: -25%;
+    color: greenyellow;
+}
+
+.unlock_V4 .unlock_text_subtitle {
+    font-size: 14px
+}
+
+.unlock_V4 .unlock_option_button #upgradebutton {
+    background-color: #ff9f00;
+    width: 136px
+}
+
+.unlock_V4 .unlock_option_button #upgradebutton:hover, .unlock_V4 .unlock_option_button #upgradebutton:focus {
+    background-color: #ee9400
+}
+
+@media (min-width: 768px) {
+    .unlock_V4 .unlockmodal_content {
+        padding: 0 60px
+    }
+
+    .unlock_V4 .unlock_option_text {
+        width: calc(100% - 156px);
+        margin-left: 0
+    }
+
+    .unlock_V4 .unlock_option_button {
+        width: 156px
+    }
+}
+
+@media (max-width: 920px) {
+    .content-header {
+        margin-bottom: 20px
+    }
+
+    #thepiechartbox {
+        left: -12.5%
+    }
+
+    .radio-button-container {
+        top: -15px
+    }
+}
+
+@media (max-width: 700px) {
+    #thepiechartbox {
+        left: -25%
+    }
+}
+
+.unlock_V4 .unlock_text_title {
+    font-size: 18px
+}
+
+.row2 {
+    margin-right: -15px;
+    margin-left: -15px
+}
+
+.row2:before, .row2:after {
+    display: table;
+    content: " "
+}
+
+.row2:after {
+    clear: both
+}
+
+.row2:before, .row2:after {
+    display: table;
+    content: " "
+}
+
+.row2:after {
+    clear: both
+}
+
+.form-group2 {
+    margin-bottom: 15px
+}
+
+.form-horizontal .form-group2 {
+    margin-right: -15px;
+    margin-left: -15px
+}
+
+.form-horizontal .form-group2:before, .form-horizontal .form-group2:after {
+    display: table;
+    content: " "
+}
+
+.form-horizontal .form-group2:after {
+    clear: both
+}
+
+.form-horizontal .form-group2:before, .form-horizontal .form-group2:after {
+    display: table;
+    content: " "
+}
+
+.form-horizontal .form-group2:after {
+    clear: both
+}
+
+table2 {
+    max-width: 100%;
+    background-color: transparent
+}
+
+th {
+    text-align: left
+}
+
+.table2 {
+    width: 100%;
+    margin-bottom: 20px
+}
+
+.table2 thead > tr > th, .table2 tbody > tr > th, .table2 tfoot > tr > th, .table2 thead > tr > td, .table2 tbody > tr > td, .table2 tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.428571429;
+    vertical-align: top;
+    border-top: 1px solid #ddd
+}
+
+.table2 thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd
+}
+
+.table2 caption + thead tr:first-child th, .table2 colgroup + thead tr:first-child th, .table2 thead:first-child tr:first-child th, .table2 caption + thead tr:first-child td, .table2 colgroup + thead tr:first-child td, .table2 thead:first-child tr:first-child td {
+    border-top: 0
+}
+
+.table2 tbody + tbody {
+    border-top: 2px solid #ddd
+}
+
+.table2 .table2 {
+    background-color: #fff
+}
+
+.table2-condensed thead > tr > th, .table2-condensed tbody > tr > th, .table2-condensed tfoot > tr > th, .table2-condensed thead > tr > td, .table2-condensed tbody > tr > td, .table2-condensed tfoot > tr > td {
+    padding: 5px
+}
+
+.table2-bordered {
+    border: 1px solid #ddd
+}
+
+.table2-bordered > thead > tr > th, .table2-bordered > tbody > tr > th, .table2-bordered > tfoot > tr > th, .table2-bordered > thead > tr > td, .table2-bordered > tbody > tr > td, .table2-bordered > tfoot > tr > td {
+    border: 1px solid #ddd
+}
+
+.table2-bordered > thead > tr > th, .table2-bordered > thead > tr > td {
+    border-bottom-width: 2px
+}
+
+.table2-striped > tbody > tr:nth-child(odd) > td, .table2-striped > tbody > tr:nth-child(odd) > th {
+    background-color: #f9f9f9
+}
+
+.table2-hover > tbody > tr:hover > td, .table2-hover > tbody > tr:hover > th {
+    background-color: #f5f5f5
+}
+
+table2 col[class*="col-"] {
+    display: table2-column;
+    float: none
+}
+
+table2 td[class*="col-"], table2 th[class*="col-"] {
+    display: table2-cell;
+    float: none
+}
+
+.table2 > thead > tr > td.active, .table2 > tbody > tr > td.active, .table2 > tfoot > tr > td.active, .table2 > thead > tr > th.active, .table2 > tbody > tr > th.active, .table2 > tfoot > tr > th.active, .table2 > thead > tr.active > td, .table2 > tbody > tr.active > td, .table2 > tfoot > tr.active > td, .table2 > thead > tr.active > th, .table2 > tbody > tr.active > th, .table2 > tfoot > tr.active > th {
+    background-color: #f5f5f5
+}
+
+.table2 > thead > tr > td.success, .table2 > tbody > tr > td.success, .table2 > tfoot > tr > td.success, .table2 > thead > tr > th.success, .table2 > tbody > tr > th.success, .table2 > tfoot > tr > th.success, .table2 > thead > tr.success > td, .table2 > tbody > tr.success > td, .table2 > tfoot > tr.success > td, .table2 > thead > tr.success > th, .table2 > tbody > tr.success > th, .table2 > tfoot > tr.success > th {
+    background-color: #dff0d8;
+    border-color: #d6e9c6
+}
+
+.table2-hover > tbody > tr > td.success:hover, .table2-hover > tbody > tr > th.success:hover, .table2-hover > tbody > tr.success:hover > td {
+    background-color: #d0e9c6;
+    border-color: #c9e2b3
+}
+
+.table2 > thead > tr > td.danger, .table2 > tbody > tr > td.danger, .table2 > tfoot > tr > td.danger, .table2 > thead > tr > th.danger, .table2 > tbody > tr > th.danger, .table2 > tfoot > tr > th.danger, .table2 > thead > tr.danger > td, .table2 > tbody > tr.danger > td, .table2 > tfoot > tr.danger > td, .table2 > thead > tr.danger > th, .table2 > tbody > tr.danger > th, .table2 > tfoot > tr.danger > th {
+    background-color: #f2dede;
+    border-color: #eed3d7
+}
+
+.table2-hover > tbody > tr > td.danger:hover, .table2-hover > tbody > tr > th.danger:hover, .table2-hover > tbody > tr.danger:hover > td {
+    background-color: #ebcccc;
+    border-color: #e6c1c7
+}
+
+.table2 > thead > tr > td.warning, .table2 > tbody > tr > td.warning, .table2 > tfoot > tr > td.warning, .table2 > thead > tr > th.warning, .table2 > tbody > tr > th.warning, .table2 > tfoot > tr > th.warning, .table2 > thead > tr.warning > td, .table2 > tbody > tr.warning > td, .table2 > tfoot > tr.warning > td, .table2 > thead > tr.warning > th, .table2 > tbody > tr.warning > th, .table2 > tfoot > tr.warning > th {
+    background-color: #fcf8e3;
+    border-color: #fbeed5
+}
+
+.table2-hover > tbody > tr > td.warning:hover, .table2-hover > tbody > tr > th.warning:hover, .table2-hover > tbody > tr.warning:hover > td {
+    background-color: #faf2cc;
+    border-color: #f8e5be
+}
+
+@media (max-width: 768px) {
+    .table2-responsive {
+        width: 100%;
+        margin-bottom: 15px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        border: 1px solid #ddd
+    }
+
+    .table2-responsive > .table2 {
+        margin-bottom: 0;
+        background-color: #fff
+    }
+
+    .table2-responsive > .table2 > thead > tr > th, .table2-responsive > .table2 > tbody > tr > th, .table2-responsive > .table2 > tfoot > tr > th, .table2-responsive > .table2 > thead > tr > td, .table2-responsive > .table2 > tbody > tr > td, .table2-responsive > .table2 > tfoot > tr > td {
+        white-space: nowrap
+    }
+
+    .table2-responsive > .table2-bordered {
+        border: 0
+    }
+
+    .table2-responsive > .table2-bordered > thead > tr > th:first-child, .table2-responsive > .table2-bordered > tbody > tr > th:first-child, .table2-responsive > .table2-bordered > tfoot > tr > th:first-child, .table2-responsive > .table2-bordered > thead > tr > td:first-child, .table2-responsive > .table2-bordered > tbody > tr > td:first-child, .table2-responsive > .table2-bordered > tfoot > tr > td:first-child {
+        border-left: 0
+    }
+
+    .table2-responsive > .table2-bordered > thead > tr > th:last-child, .table2-responsive > .table2-bordered > tbody > tr > th:last-child, .table2-responsive > .table2-bordered > tfoot > tr > th:last-child, .table2-responsive > .table2-bordered > thead > tr > td:last-child, .table2-responsive > .table2-bordered > tbody > tr > td:last-child, .table2-responsive > .table2-bordered > tfoot > tr > td:last-child {
+        border-right: 0
+    }
+
+    .table2-responsive > .table2-bordered > thead > tr:last-child > th, .table2-responsive > .table2-bordered > tbody > tr:last-child > th, .table2-responsive > .table2-bordered > tfoot > tr:last-child > th, .table2-responsive > .table2-bordered > thead > tr:last-child > td, .table2-responsive > .table2-bordered > tbody > tr:last-child > td, .table2-responsive > .table2-bordered > tfoot > tr:last-child > td {
+        border-bottom: 0
+    }
+}
+
+.container2 {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.container2:before, .container2:after {
+    display: table2;
+    content: " "
+}
+
+.container2:after {
+    clear: both
+}
+
+.container2:before, .container2:after {
+    display: table2;
+    content: " "
+}
+
+.container2:after {
+    clear: both
+}
