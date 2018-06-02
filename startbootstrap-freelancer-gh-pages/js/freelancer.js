@@ -73,19 +73,3 @@
   });
 
 })(jQuery); // End of use strict
-
-
-function chatbot() {
-    var jsonData = {
-        "inputString":document.getElementById("userInput").value
-    };
-    $.ajax({
-        type:'post',
-        url:'aliyun.charlesxu.cn:8080/helpkids/chatbot/response',
-        contentType:'application/json;charset=utf-8',//指定为json类型
-        data:JSON.stringify(jsonData),
-        success:function(data){//返回json结果
-            alert(data.response);
-        }
-    });
-}

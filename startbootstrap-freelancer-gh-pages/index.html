@@ -2,20 +2,9 @@
 <html lang="en">
 
 <head>
-    <script>function chatbot() {
-        var jsonData = {
-            "inputString": document.getElementById("userInput").value
-        };
-        $.ajax({
-            type: 'post',
-            url: 'http://aliyun.charlesxu.cn:8080/helpkids/chatbot/response',
-            contentType: 'application/json;charset=utf-8',//指定为json类型
-            data: JSON.stringify(jsonData),
-            success: function (data) {//返回json结果
-                alert(data.response);
-            }
-        });
-    }</script>
+    <script src="js/Octopedia.js"></script>
+    <link href="chatbubble/bubble.css" rel="stylesheet">
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -98,16 +87,49 @@
             <!--</div>-->
             <!--</form></div>-->
             <form>
-                <div class="form-row">
-                    <div class="col-12 col-md-9 mb-2 mb-md-0">
-                        <input type="text" class="form-control form-control-lg"
-                               placeholder="Enter your dream schools..." id="userInput" class="search">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Talk to OCTOPEDIA</h3>
                     </div>
-                    <div class="col-12 col-md-3">
-                        <button type="submit" class="btn btn-block btn-lg btn-primary" id="searchBtn"
-                                onclick="chatbot()">Search
+                    <div class="panel-body scrollable-panel" id="chatBox">
+                        <div class="speech-bubble-server">您好。我能帮您什么？</div>
+                        <br>
+                        <div class="speech-bubble-server">
+                            您好。我能帮您什么？您好。我能帮您什么？您好。我能帮您什么？您好。我能帮您什么？您好。我能帮您什么？您好。我能帮您什么？您好。我能帮您什么？您好。我能帮您什么？您好。我能帮您什么？
+                        </div>
+                        <br>
+                        <div class="speech-bubble-server">您好。我能帮您什么？</div>
+                        <br>
+                        <div class="speech-bubble-server">您好。我能帮您什么？</div>
+                        <br>
+                        <div class="speech-bubble-server">您好。我能帮您什么？</div>
+                        <br>
+                        <div class="speech-bubble-server">您好。我能帮您什么？</div>
+                        <br>
+                        <div class="speech-bubble-server">您好。我能帮您什么？</div>
+                        <br>
+                        <div class="speech-bubble-server">您好。我能帮您什么？</div>
+                        <br>
+                        <div class="speech-bubble-server">您好。我能帮您什么？</div>
+                        <br>
+                        <div class="speech-bubble-server">您好。我能帮您什么？</div>
+                        <br>
+                        <div class="speech-bubble-server">您好。我能帮您什么？</div>
+                        <br>
+                        <div class="speech-bubble-server">您好。我能帮您什么？</div>
+                        <br>
+                    </div>
+                </div>
+                <br>
+                <div class="form-row">
+                    <div class="content_input">
+                        <input type="text" id="userInput" class="search_field"
+                               placeholder="Ask OCTOPEDIA about anything!">
+                        <button class="search_btn" onclick="chatbot()">
+                            Go!
                         </button>
                     </div>
+
                 </div>
             </form>
         </div>
@@ -513,7 +535,5 @@
 
 <!-- Custom scripts for this template -->
 <script src="js/freelancer.min.js"></script>
-
 </body>
-
 </html>

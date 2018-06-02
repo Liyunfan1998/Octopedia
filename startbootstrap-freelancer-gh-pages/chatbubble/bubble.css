@@ -1,0 +1,141 @@
+.speech-bubble-server {
+    position: relative;
+    width: 40%;
+    padding: 10px;
+    background: dodgerblue;
+    border-radius: .4em;
+}
+
+.speech-bubble-server:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top-color: dodgerblue;
+    border-bottom: 0;
+    border-left: 0;
+    margin-left: -10px;
+    margin-bottom: -20px;
+}
+
+.speech-bubble-user {
+    position: relative;
+    width: 40%;
+    padding: 10px;
+    margin-left: 60%;
+    background: limegreen;
+    border-radius: .4em;
+}
+
+.speech-bubble-user:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top-color: limegreen;
+    border-bottom: 0;
+    border-right: 0;
+    margin-left: -10px;
+    margin-bottom: -20px;
+}
+
+.scrollable-panel {
+    padding: 20px;
+    max-height: 300px;
+    background-color: mediumpurple;
+    border: 5px solid orange;
+    width: 75%;
+    overflow: auto;
+}
+
+div.search {
+    padding: 10px 0;
+}
+
+.content_input .search_field { /*输入框样式*/
+
+    width: 536px;
+    height: 70px;
+    line-height: 38px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid #99C3FE;
+    float: center;
+}
+
+.content_input .search_btn { /*按钮样式*/
+    width: 103px;
+    height: 70px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    line-height: 38px;
+    color: #FFFFFF;
+    font-weight: 1500;
+    font-size: 25px;
+    background: #3388FF;
+    border: none;
+    float: none;
+}
+
+.panel-title {
+    margin-left: -25%;
+    color: greenyellow;
+}
+
+.unlock_V4 .unlock_text_subtitle {
+    font-size: 14px
+}
+
+.unlock_V4 .unlock_option_button #upgradebutton {
+    background-color: #ff9f00;
+    width: 136px
+}
+
+.unlock_V4 .unlock_option_button #upgradebutton:hover, .unlock_V4 .unlock_option_button #upgradebutton:focus {
+    background-color: #ee9400
+}
+
+@media (min-width: 768px) {
+    .unlock_V4 .unlockmodal_content {
+        padding: 0 60px
+    }
+
+    .unlock_V4 .unlock_option_text {
+        width: calc(100% - 156px);
+        margin-left: 0
+    }
+
+    .unlock_V4 .unlock_option_button {
+        width: 156px
+    }
+}
+
+@media (max-width: 920px) {
+    .content-header {
+        margin-bottom: 20px
+    }
+
+    #thepiechartbox {
+        left: -12.5%
+    }
+
+    .radio-button-container {
+        top: -15px
+    }
+}
+
+@media (max-width: 700px) {
+    #thepiechartbox {
+        left: -25%
+    }
+}
+
+.unlock_V4 .unlock_text_title {
+    font-size: 18px
+}

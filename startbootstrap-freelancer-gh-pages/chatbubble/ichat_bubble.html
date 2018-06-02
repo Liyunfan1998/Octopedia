@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>聊天泡泡</title>
+<style type="text/css">
+<!--
+#chatbox1 {
+	position: relative;
+	height: 20px;
+	width: 30px;
+}
+#chatbox1 #topbg {
+	position: absolute;
+	height: 9px;
+	top: 0px;
+	background-image: url(images/t1.png);
+	z-index: 1;
+	right: 16px;
+	left: 11px;
+}
+a {
+	color: #0000FF;
+	text-decoration: none;
+}
+a:hover {
+	color: #FF6600;
+	text-decoration: underline;
+}
+a:visited {
+	color: #0000FF;
+	text-decoration: none;
+}
+#chatbox1 #rbcor {
+	position: absolute;
+	height: 9px;
+	width: 16px;
+	right: 0px;
+	bottom: 0px;
+	background-image: url(images/r2.png);
+	z-index: 2;
+}
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#chatbox1 #lbcor {
+	background-image: url(images/l2.png);
+	position: absolute;
+	z-index: 2;
+	height: 9px;
+	width: 11px;
+	left: 0px;
+	bottom: 0px;
+}
+#chatbox1 #leftcor {
+	position: absolute;
+	height: 9px;
+	width: 11px;
+	left: 0px;
+	top: 0px;
+	z-index: 2;
+	background-image: url(images/l1.png);
+}
+#chatbox1 #rightcor {
+	position: absolute;
+	height: 9px;
+	width: 16px;
+	top: 0px;
+	right: 0px;
+	background-image: url(images/r1.png);
+	z-index: 2;
+	background-repeat: no-repeat;
+}
+#chatbox1 #btbg {
+	position: absolute;
+	height: 9px;
+	bottom: 0px;
+	background-image: url(images/b1.png);
+	z-index: 1;
+	left: 9px;
+	right: 16px;
+}
+#chatbox1 #bbcontent {
+	position: absolute;
+	left: 11px;
+	top: 9px;
+	right: 16px;
+	bottom: 9px;
+	z-index: 2;
+	background-color: #F0F0F0;
+	overflow: visible;
+}
+#chatbox1 #rightbg {
+	position: absolute;
+	width: 16px;
+	right: 0px;
+	background-image: url(images/rt1.png);
+	z-index: 1;
+	top: 9px;
+	bottom: 9px;
+}
+#chatbox1 #leftbg {
+	position: absolute;
+	width: 11px;
+	left: 0px;
+	background-image: url(images/lf1.png);
+	z-index: 1;
+	top: 9px;
+	bottom: 9px;
+}
+.red {
+	color: #FF0000
+}
+-->
+</style>
+</head>
+<body>
+<div id="chatbox1">
+  <div id="topbg"></div>
+  <div id="leftbg"></div>
+  <div id="rightbg"></div>
+  <div id="btbg"></div>
+  <div id="leftcor"></div>
+  <div id="lbcor"></div>
+  <div id="rightcor"></div>
+  <div id="rbcor"></div>
+  <div id="bbcontent"><a href="http://www.cocoachina.com" target="_blank">CocoaChina</a> <br/>
+    Rocks!</div>
+</div>
+<div id="chatbox">
+  <p>
+    <input name="chatcontent" type="text" id="chatcontent" size="20" />
+    <input name="btn" type="button" value="Say" id="btn" onclick="javascript:saysomething();"/>
+  </p>
+  <p>回车用<span class="red">&lt;br/&gt;</span>代替。 </p>
+</div>
+</body>
+<script>
+function autoResizeBox()
+{
+	var content=document.getElementById('bbcontent');
+	var box=document.getElementById('chatbox1');
+	var h=content.scrollHeight;
+	var w=content.scrollWidth;
+	box.style.width=w+27+"px";
+	box.style.height=h+18+"px";
+
+}
+autoResizeBox();
+function saysomething(){
+	var content=document.getElementById('bbcontent');
+	var chat=document.getElementById('chatcontent');
+	content.innerHTML=chat.value;
+	autoResizeBox();
+}
+</script>
+</html>
