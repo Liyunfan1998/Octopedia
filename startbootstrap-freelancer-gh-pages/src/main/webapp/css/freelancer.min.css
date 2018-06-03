@@ -476,3 +476,22 @@ button {
 .search #searchBtn {
     height: 10px !important;
 }
+
+.ifameH5 {
+    border: 2px solid orange;
+}
+
+.display-box {
+    display: inline;
+    width: 100%;
+}
+
+#video {
+    align-self: center;
+    /*align-items: center;*/
+    width: 500px;
+    height: 300px;
+}
+iframe#video{
+    width: 100%;
+}

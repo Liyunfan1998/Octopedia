@@ -5,7 +5,6 @@
 function chatbot() {
     var userStr = document.getElementById("userInput").value;
     createUserChatBox(userStr);
-    alert(1);
     var jsonData = {
         "inputString": userStr,
     };

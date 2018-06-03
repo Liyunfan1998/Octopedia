@@ -13,33 +13,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-743">
-              <caret line="58" column="36" lean-forward="false" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WatsonAPI.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Java/WatsonAPI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Octopedia.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Octopedia.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/js/Octopedia.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="45" column="38" lean-forward="true" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+            <state relative-caret-position="-180">
+              <caret line="12" column="45" lean-forward="false" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -67,16 +45,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SchoolDisplayBubbles.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/SchoolDisplayBubbles.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-63094">
-              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="contact_me.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/js/contact_me.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -93,8 +61,40 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5537">
-              <caret line="127" column="71" lean-forward="true" selection-start-line="127" selection-start-column="71" selection-end-line="127" selection-end-column="71" />
+            <state relative-caret-position="138">
+              <caret line="224" column="48" lean-forward="true" selection-start-line="224" selection-start-column="48" selection-end-line="224" selection-end-column="48" />
+              <folding>
+                <element signature="e#17593#17599#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrapModified.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/css/bootstrapModified.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-86">
+              <caret line="4690" column="23" lean-forward="true" selection-start-line="4690" selection-start-column="23" selection-end-line="4690" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="freelancer.min.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/css/freelancer.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="485" column="16" lean-forward="true" selection-start-line="485" selection-start-column="16" selection-end-line="485" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="freelancer.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/css/freelancer.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="392" column="21" lean-forward="true" selection-start-line="392" selection-start-column="2" selection-end-line="392" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -103,7 +103,7 @@
       <file leaf-file-name="freelancer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/js/freelancer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
+            <state relative-caret-position="668">
               <caret line="55" column="23" lean-forward="true" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
               <folding />
             </state>
@@ -113,8 +113,8 @@
       <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-21">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="1800">
+              <caret line="120" column="3" lean-forward="true" selection-start-line="120" selection-start-column="3" selection-end-line="120" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -131,14 +131,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>br</find>
-      <find>9px</find>
-      <find>butt</find>
-      <find>&quot;</find>
-      <find>chat</find>
-      <find>chatBox</find>
-      <find>transparent</find>
-      <find>font</find>
       <find>bubble.js</find>
       <find>panel t</find>
       <find>png</find>
@@ -157,10 +149,18 @@
       <find>penel</find>
       <find>container</find>
       <find>fds</find>
-      <find>button</find>
       <find>js</find>
       <find>onclick</find>
       <find>click</find>
+      <find>reload</find>
+      <find>op</find>
+      <find>oped</find>
+      <find>button</find>
+      <find>iframe</find>
+      <find>Login</find>
+      <find>frame</find>
+      <find>-&gt;</find>
+      <find>about</find>
     </findStrings>
     <replaceStrings>
       <replace>Join us</replace>
@@ -173,6 +173,7 @@
       <replace>setup-content2</replace>
       <replace>table2</replace>
       <replace>limegreen</replace>
+      <replace>&lt;/p&gt;&lt;p class=&quot;lead&quot;&gt;-&gt;</replace>
       <replace>container2</replace>
     </replaceStrings>
   </component>
@@ -205,8 +206,11 @@
         <option value="$PROJECT_DIR$/src/main/webapp/Java/WatsonAPI.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/Java/WatsonAPI.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/gulpfile.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/Octopedia.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/freelancer.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/freelancer.min.css" />
       </list>
     </option>
   </component>
@@ -416,6 +420,62 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="startbootstrap-freelancer-gh-pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="startbootstrap-freelancer-gh-pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freelancer.css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="startbootstrap-freelancer-gh-pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="startbootstrap-freelancer-gh-pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -932,12 +992,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527900785967</updated>
-      <workItem from="1527900787604" duration="28980000" />
+      <workItem from="1527900787604" duration="34129000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28980000" />
+    <option name="totallyTimeSpent" value="34129000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1236" height="777" extended-state="6" />
@@ -1167,39 +1227,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Java/WatsonAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/freelancer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="55" column="23" lean-forward="true" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/contact_me.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="42" column="10" lean-forward="true" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
-          <folding>
-            <marker date="1525322084000" expanded="true" signature="1390:1397" ph="×" />
-            <marker date="1525322084000" expanded="true" signature="1945:1952" ph="×" />
           </folding>
         </state>
       </provider>
@@ -1220,6 +1253,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="120" column="3" lean-forward="true" selection-start-line="120" selection-start-column="3" selection-end-line="120" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jqBootstrapValidation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
@@ -1230,18 +1271,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/contact_me.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5537">
-          <caret line="127" column="71" lean-forward="true" selection-start-line="127" selection-start-column="71" selection-end-line="127" selection-end-column="71" />
+        <state relative-caret-position="436">
+          <caret line="42" column="10" lean-forward="true" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+          <folding>
+            <marker date="1525322084000" expanded="true" signature="1390:1397" ph="×" />
+            <marker date="1525322084000" expanded="true" signature="1945:1952" ph="×" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/bootstrapModified.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-86">
+          <caret line="4690" column="23" lean-forward="true" selection-start-line="4690" selection-start-column="23" selection-end-line="4690" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/freelancer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="55" column="23" lean-forward="true" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/Octopedia.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="45" column="38" lean-forward="true" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+        <state relative-caret-position="-180">
+          <caret line="12" column="45" lean-forward="false" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="224" column="48" lean-forward="true" selection-start-line="224" selection-start-column="48" selection-end-line="224" selection-end-column="48" />
+          <folding>
+            <element signature="e#17593#17599#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/freelancer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="392" column="21" lean-forward="true" selection-start-line="392" selection-start-column="2" selection-end-line="392" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/freelancer.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="485" column="16" lean-forward="true" selection-start-line="485" selection-start-column="16" selection-end-line="485" selection-end-column="16" />
           <folding />
         </state>
       </provider>
