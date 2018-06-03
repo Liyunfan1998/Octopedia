@@ -21,7 +21,7 @@ function chatbot() {
         contentType: 'application/json;charset=utf-8',//指定为json类型
         data: JSON.stringify(jsonData),
         success: function (data) {//返回json结果
-            console.log(data);
+            console.log(data.response.output['text']);
             createServerChatBox(data);
             // console.log(data.response.output['text']);
         }
@@ -31,7 +31,11 @@ function chatbot() {
 function createServerChatBox(data) {
     var createDiv = document.createElement("div");
     createDiv.setAttribute("class", "speech-bubble-server");
-    createDiv.innerHTML = data.response.output['text'];
+    var str = data.response.output['text'];
+    if (str.length == 0) {
+        str = "对不起，我无法回答您的问题。";
+    }
+    createDiv.innerHTML = str;
     document.getElementById("chatBox").appendChild(createDiv);
     var createBr = document.createElement("br");
     document.getElementById("chatBox").appendChild(createBr);
